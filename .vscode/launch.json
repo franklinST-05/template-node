@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (server)",
+      "type": "node",
+      "port": 9033,
+      "address": "localhost",
+      "request": "attach",
+      "restart": true,
+      "sourceMaps": true,
+      "remoteRoot": "/",
+      "localRoot": "${workspaceRoot}/"
+    }
+  ]
+}
